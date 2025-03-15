@@ -1,0 +1,1 @@
+{"loss": 0.5364691615104675, "epoch": 1, "_timestamp": 1714387370.1069727, "_runtime": 116.99183464050293, "_step": 79, "mse_val": 0.6582881212234497, "ci_val": 0.7314010437451323, "dataset": "davis", "model": "GEN", "_wandb": {"runtime": 116}}

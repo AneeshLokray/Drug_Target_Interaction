@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-04-29T10:32:43.488772",
+    "startedAt": "2024-04-29T10:32:42.592270",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\dshre\\Documents\\Sem-6\\BTP\\DeepNC\\check.py",
+    "codePathLocal": "check.py",
+    "codePath": "check.py",
+    "git": {
+        "remote": "https://github.com/Satansu/DeepNC.git",
+        "commit": "a6bd5f724ce48479032683d3e484eb7e8c643d84"
+    },
+    "email": "dshreyan25@gmail.com",
+    "root": "C:/Users/dshre/Documents/Sem-6/BTP/DeepNC",
+    "host": "Shreyan",
+    "username": "dshre",
+    "executable": "C:\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 458.90136337280273,
+            "used": 212.18072891235352
+        }
+    },
+    "memory": {
+        "total": 15.74490737915039
+    }
+}

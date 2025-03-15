@@ -1,0 +1,43 @@
+cuda_name: cuda:0
+running on  GEN_davis
+Pre-processed data found: data\processed\davis_train.pt, loading ...
+Pre-processed data found: data\processed\davis_test.pt, loading ...
+Training on 20036 samples...
+Train epoch: 1 [0/20036 (0%)]	Loss: 31.129488
+C:\Python311\Lib\site-packages\torch_geometric\deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Train epoch: 1 [162540/20036 (25%)]	Loss: 1.105152
+Train epoch: 1 [329520/20036 (51%)]	Loss: 0.835241
+Train epoch: 1 [496920/20036 (76%)]	Loss: 0.663417
+Make prediction for 5010 samples...
+running on  HGC_GCN_davis
+Pre-processed data found: data\processed\davis_train.pt, loading ...
+Pre-processed data found: data\processed\davis_test.pt, loading ...
+Training on 20036 samples...
+Traceback (most recent call last):
+  File "C:\Users\dshre\Documents\Sem-6\BTP\DeepNC\training_validation.py", line 95, in <module>
+    train(model, device, train_loader, optimizer, epoch + 1)
+  File "C:\Users\dshre\Documents\Sem-6\BTP\DeepNC\training_validation.py", line 32, in train
+    output = model(data)
+             ^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dshre\Documents\Sem-6\BTP\DeepNC\models\hgc_gcn.py", line 34, in forward
+    x = self.conv1(x, edge_index, None, None)  # Pass None for hyperedge_index and hyperedge_attr
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch_geometric\experimental.py", line 117, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch_geometric\nn\conv\hypergraph_conv.py", line 167, in forward
+    assert hyperedge_attr is not None
+AssertionError

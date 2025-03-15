@@ -1,0 +1,1 @@
+{"loss": 0.4263128638267517, "epoch": 1, "_timestamp": 1714389155.0181663, "_runtime": 83.97154521942139, "_step": 158, "mse_val": 0.7280001044273376, "ci_val": 0.6444144145144791, "dataset": "davis", "model": "GCNNet", "_wandb": {"runtime": 105}}

@@ -1,0 +1,24 @@
+cuda_name: cuda:0
+Learning rate:  0.0005
+Epochs:  1
+running on  GCNNet_davis
+Pre-processed data found: data\processed\davis_train.pt, loading ...
+Pre-processed data found: data\processed\davis_test.pt, loading ...
+Training on 20036 samples...
+Train epoch: 1 [0/20036 (0%)]	Loss: 30.647356
+C:\Python311\Lib\site-packages\torch_geometric\deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Train epoch: 1 [162480/20036 (25%)]	Loss: 0.923502
+Train epoch: 1 [322880/20036 (51%)]	Loss: 0.934488
+Train epoch: 1 [493980/20036 (76%)]	Loss: 0.843055
+Make prediction for 5010 samples...
+Training on 20036 samples...
+Train epoch: 1 [0/20036 (0%)]	Loss: 0.724307
+Train epoch: 1 [161120/20036 (25%)]	Loss: 0.805310
+Train epoch: 1 [327760/20036 (51%)]	Loss: 0.759056
+Train epoch: 1 [499260/20036 (76%)]	Loss: 0.953382
+predicting for valid data
+Make prediction for 5010 samples...
+predicting for test data
+Make prediction for 5010 samples...
+rmse improved at epoch  1 ; best_test_mse,best_test_ci: 0.709145 0.7056825607981582 GCNNet davis
